@@ -11,6 +11,7 @@
 
 ## Requirements
 
+- BepInEx >= 6
 - Polymod
 
 ## Installation
