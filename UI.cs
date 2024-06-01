@@ -8,6 +8,7 @@ namespace PolyModUI
 {
 	internal static class UI
 	{
+		internal static string versionOfUI = "1.0.1";
 		internal static bool active = false;
 		private static int width;
 		private static int inputValue = 0;
@@ -16,9 +17,9 @@ namespace PolyModUI
 
 		public static void Load()
 		{
-			Console.WriteLine("Loading PolyModUI...");
+			Console.WriteLine("Loading PolyModUI of version " + versionOfUI + "...");
 			Harmony.CreateAndPatchAll(typeof(UI));
-			Console.WriteLine("PolyModUI loaded!");
+			Console.WriteLine("PolyModUI loaded successfully!");
 		}
 
 		[HarmonyPostfix]
