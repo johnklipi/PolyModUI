@@ -11,7 +11,7 @@ namespace PolyModUI
 		internal static bool active = false;
 		private static int width;
 		private static int inputValue = 0;
-    	private static int gameVersion = -1;
+		private static int gameVersion = -1;
 		private const string header = "POLYMOD";
 
 		public static void Load()
@@ -26,8 +26,8 @@ namespace PolyModUI
 		private static void GameManager_Update()
 		{
 			if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Tab) && !active)
-					{
-						Show();
+			{
+				Show();
 			}
 		}
 
