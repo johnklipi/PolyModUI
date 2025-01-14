@@ -1,5 +1,5 @@
 ﻿# PolyModUI
- 
+![](https://img.shields.io/github/downloads/johnklipi/PolyModUI/total)
 ## Contains
 
 - Ingame UI when clicking LeftCtrl + Tab.
